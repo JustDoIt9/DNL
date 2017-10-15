@@ -1,0 +1,791 @@
+.transition{transition: all .5s ease-in-out;-webkit-transition: all .5s ease-in-out;-moz-transition: all .5s ease-in-out;-o-transition: all .5s ease-in-out;-ms-transition: all .5s ease-in-out}
+
+
+
+.topBar .top{background-color: #2b3043;padding: 16px 0px 52px 0;}
+.topBar .bottom{background-color: #21252c;height: 56px;line-height: 56px;}
+.topBar .bottom i{display: inline}
+.topBar .bottom p{float: right}
+.topBar ul{margin-top: 3px;}
+.topBar .avatar img{margin-left: 22px;cursor: pointer;}
+.topBar .top ul li:first-child{width: 45%;float: left;}
+.topBar .top ul li a{color: white;text-decoration: none;font-weight: bold;}
+.topBar .iconAndCounter{width: 60px;float: left;position: relative;margin-top: 9px;cursor: pointer;}
+.topBar .iconAndCounter span{
+    color: #191919;
+    position: absolute;
+    background-color: white;
+    border-radius: 15px;
+    padding: 2px 10px;
+    font-size: 13px;
+    left: 11px;
+}
+
+.topBar .top .middlelinks li a img{padding: 0 8px}
+.topBar .username{color: white}
+.topBar .bottom .rightarrow{padding: 0 12px 0 17px;color: #999ea3;font-size: 15px;}
+.topBar .bottom a{color: white;text-decoration: none;}
+.topBar .bottom a.active{color: #999ea3;}
+.topBar .bottom p{color: #878B91}
+
+
+/* ########### */
+.topBar .submenu{
+    padding: 20px 40px 10px 40px;
+    width: 85%;
+    background: #21252c;
+    position: absolute;
+    z-index: 9999999999999999999999999;
+    left: 70px;
+    top: 53px;
+    box-shadow: 0px 0px 11px -2px #404A5A;
+    border-radius: 5px;
+    border: 1px solid #33373e;
+    opacity: 0;
+    display: none;
+    }
+
+.topBar .submenu .subnavlink{width: 50%;float: left;}
+.topBar .submenu .subnavlink a{    color: white;
+    font-size: 13px;
+    font-family: arial;
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: block; text-decoration: none}
+.topBar .submenu .subnavlink a p{color: #bdbfc6;font-size: 12px;font-weight: normal;margin-left: 30px;}
+.topBar .submenu .subnavlink a p:hover{color: #96bf07}
+.have-sub-menue{cursor: pointer}
+
+
+
+
+
+
+
+
+.notify{    z-index: 999999999999999999999;position: relative}
+.avatar{position: relative}
+.arrowHideshow{cursor: pointer}
+.avatar .HideShow
+{
+  position: absolute;
+  background-color: #22262b;
+  z-index: 99999999999999;
+  right: 5px;
+  top: 52px;
+  padding: 0 25px 0 25px;
+  border-radius: 0 0 7px 7px;
+  display: none; opacity: 0
+  }
+.avatar .HideShow{transition: all .5s ease-in-out}
+.avatar .HideShow a{display: block;color: #bdbfc6;text-decoration: none;padding: 0 0 12px 0px;font-size: 13px;transition: all .5s ease-in-out;}
+.avatar .HideShow h3{color: white;margin-top: 12px;margin-bottom: 18px;}
+.avatar .HideShow h3 span{color: #8b8c8d;font-size: 13px;font-family: verdana;margin-bottom: 5px;display: block;}
+.avatar .HideShow a button{width: 100%;background: #3c4045;border-color: #45494e;font-size: 14px;margin: 18px 0 7px 0;outline: none}
+.avatar .HideShow a button:focus{outline: 0}
+.avatar .HideShow img{margin-left: 0}
+.avatar .HideShow a:hover{color: #96bf07}
+
+/* ########### */
+
+
+.fixedusers{
+    width: 70px;
+    position: fixed;
+    top: 124px;
+    cursor: pointer;
+    height: 100%;
+    padding: 30px 0px;
+    background: #f8f8f9;
+    z-index: 999999999999999999999999;
+    border-right: 1px solid #d4d7db;
+    }
+.fixedusers .user div.char{
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    background: white;
+    margin-left: 15px;
+    color: #caccce;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 40px;
+    box-shadow: 0px 0px 2px 0px #dedede;
+    margin-bottom: 30px;
+    font-size: 18px;
+    }
+
+.fixedusers .user div .opened{display: none}
+.fixedusers .user div.open .opened{display: block;width: 8px;height: 8px;background: #45ce33;position: absolute;right: 9px;border-radius: 50%;}
+
+.content{margin-left: 70px}
+
+.today .box{
+    border: 1px solid #d4d7db;
+    overflow: hidden;
+    width: 100%;
+    padding: 10px;
+    box-shadow: 0px 0px 1px 0px #c7c7c7;
+    border-radius: 5px;
+    height: 160px;
+    margin-bottom: 20px;
+}
+.today .box h3{float: left;margin-top: 38px;margin-left: 10px;font-size: 20px;}
+.today .box img{float: right;margin-top: 8px;}
+.today .box h3 span{color: #888a8d;font-size: 14px;display: inline-block;margin-bottom: 4px}
+.messages .box{padding: 15px;text-align: center;width: 99%;height: 152px;border: 1px solid #dee0e3;box-shadow: 0px 0px 1px 0px #dee0e3;border-radius: 5px;margin-bottom: 30px;}
+.messages .boxOne{background-color: #ffdad4}
+.messages .boxTwo{background-color: #eaedf0}
+.messages .boxThree{background-color: #e4fcdc}
+.messages h3{font-size: 21px;}
+.messages .MsgTitle{font-size: 25px}
+.messages .pull-right.margin{margin-top: 20px;margin-bottom: 20px;}
+.messages .pull-right a{color: #222222;font-weight: bold;font-size: 14px;text-decoration: none;margin: 0 9px;}
+.messages .distnictbtn{background-color: #e5e9ec;padding: 11px;border-radius: 24px;margin-right: 0 !important;}
+
+.tableMargin{width: 98%;margin: 0 auto;margin-bottom: 15px;}
+.demographic table {
+    border-collapse: separate !important;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+    box-shadow: 0px 2px 11px 0px #eee;
+    border-radius: 8px;
+}
+.demographic table tr{background-color: #e5e9ec;border: 1px solid #dadce0;}
+.demographic table tr th:first-child,.demographic table tr th:last-child{border: 0}
+.demographic table tr th:first-child{border-right: 2px solid #fff}
+
+.demographic table tr th:last-child{border-left: 1px solid #c7c7c7}
+
+.demographic table tr:last-child{background: white}
+.demographic table tr:last-child td{border: 0}
+
+.demographic th, .demographic td {
+    border: none;
+    text-align: left;
+    padding: 8px 11px;
+    border-right: 2px solid #fff;
+    width: calc(100% / 2);
+    border-left: 1px solid #c7c7c7;
+    margin: 0 0px;
+    display: inline-block;
+}
+
+.demographic tr:nth-child(even){background-color: #f2f2f2}
+.demographic .togglearrow{float: right;margin-top: 4px}
+.demographic .lastButtons {margin-top: 35px;margin-bottom: 12px}
+.demographic .lastButtons .buttons{border: 1px solid #ddd;border-radius: 32px;float: left;margin-right: 25px;}
+.demographic .lastButtons .buttons button:focus{outline: 0}
+.demographic .lastButtons .buttons button{border: 0;padding: 8px 15px;border-radius: 27px;background: transparent;width: 133px;}
+.demographic .lastButtons .buttons .graybackground{background-color: #e5e9ec}
+.demographic p{color: #949494}
+
+.secdemographic .secondTable th,.secdemographic .secondTable td {
+    width: calc(100% / 5);
+}
+
+
+.demographic form select, .demographic form input{
+    border: 1px solid #e5e9ec;
+    box-shadow: 0px 0px 2px 0px #e5e9ec;
+    padding: 8px 45px 8px 5px;
+    border-radius: 5px; outline: 0
+}
+.demographic form input,.demographic form .sel{width: 162px}
+.demographic form .sel{background-color: #f7f8f9}
+
+.graph{
+    margin: 22px 0;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #eee;
+    height: 170px;
+    box-shadow: 0px 0px 3px 1px #eee;
+}
+
+.TopTen p{color: #b2b3ba}
+
+.boxx{border: 1px solid #eee;
+    border-radius: 15px;
+    box-shadow: 0px 0px 5px 1px #eee;
+    padding: 20px; margin-bottom: 20px}
+
+
+
+.TopTen table {
+    border-collapse: separate !important;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+    box-shadow: 0px 2px 11px 0px #eee;
+    border-radius: 8px;
+}
+.TopTen table tr{background-color: #e5e9ec;border: 1px solid #dadce0;}
+.TopTen table tr th:first-child,table tr th:last-child{border: 0}
+.TopTen table tr th:first-child{border-right: 2px solid #fff}
+
+.TopTen table tr th:last-child{border-left: 1px solid #c7c7c7}
+
+.TopTen table tr:last-child{background: white}
+.TopTen table tr:last-child td{border: 0}
+
+.TopTen th, .TopTen td {
+    border: none;
+    text-align: left;
+    padding: 8px 11px;
+    border-right: 2px solid #fff;
+    border-left: 1px solid #c7c7c7;
+    margin: 0 0px;
+    display: inline-block;
+    width: calc(100% / 3);
+}
+
+
+.TopTen tr:nth-child(even) {background: #f7f8f9 !important}
+.TopTen tr:nth-child(even) td{border: 0 !important;}
+.TopTen tr:nth-child(odd) td{border: 0 !important;border-top: 1px solid #e1e3e6 !important;border-bottom: 1px solid #e1e3e6 !important;}
+.TopTen tr:nth-child(odd){background: #fdfefe !important;border: 1px solid #ddd;}
+.TopTen tr:first-child{background: #edeff5 !important}
+
+
+
+footer{background-color: #e4e8ec}
+
+footer p {
+    margin: 0;
+    padding: 13px 17px;
+    font-size: 13px;
+}
+
+
+
+
+
+
+
+@media (width: 1024px) {
+  .topBar .top .col-md-3{width:16.66666667% }
+  .topBar .top .col-md-4{width: 41.66666667%}
+  .topBar .submenu{left: -39px}
+}
+
+
+
+@media (width: 768px) {
+  .topBar .top .middlelinks li a img{padding: 0}
+  .col-sm-5 {
+      width: 55.666667%;
+  }
+  .col-sm-6 {
+      width: 36%;
+  }
+  .topBar .username {
+      color: white;
+      font-size: 12px;
+  }
+
+  .messages .col-sm-3{float: none}
+  .have-sub-menue img{margin-left: 30px}
+  .middlelinks li a img{margin-left: 30px}
+  .topBar .submenu{width: 234%}
+  .topBar .bottom div.col-sm-6{width: 50%}
+}
+
+
+
+@media (width: 640px){
+  .topBar .top{text-align: center}
+  .topBar .bottom .pull-right{margin-top: -55px}
+  .topBar .iconAndCounter span{left: 35px}
+  .arrowHideshow{float: right}
+  .topBar .submenu {
+    padding: 20px 40px 10px 40px;
+    width: 95%;
+    background: #21252c;
+    position: absolute;
+    z-index: 9999999999999999999999999;
+    left: 2.5%;
+    top: 93px;
+    box-shadow: 0px 0px 11px -2px #404A5A;
+    border-radius: 5px;
+    border: 1px solid #33373e;
+    opacity: 0;
+    display: none}
+}
+
+@media (width: 480px){
+  .topBar .top{text-align: center}
+  .topBar .bottom .pull-right{margin-top: -55px}
+  .topBar .iconAndCounter span{left: 35px}
+  .topBar .submenu {
+    padding: 20px 40px 10px 40px;
+    width: 100%;
+    background: #21252c;
+    position: absolute;
+    z-index: 9999999999999999999999999;
+    left: 0;
+    top: 96px;
+    box-shadow: 0px 0px 11px -2px #404A5A;
+    border-radius: 5px;
+    border: 1px solid #33373e;
+    opacity: 0;
+    display: none}
+}
+
+@media (width: 320px){
+  .topBar .top{text-align: center}
+  .topBar .bottom .pull-right{margin-top: -55px}
+  .topBar .iconAndCounter span{left: 45px;}
+  .topBar .top ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: -32px}
+    .notify {
+        z-index: 999999999999999999999;
+        position: relative;
+        overflow: hidden;
+        margin-bottom: 20px;
+    }
+    .topBar .iconAndCounter {width: 85px;}
+    .topBar .top ul li:first-child {
+    width: 50%;
+    float: left}
+
+    .arrowHideshow{margin-left: -28px}
+    .avatar .HideShow{right: 45px}
+
+    .topBar .submenu{
+    padding: 20px 40px 10px 40px;
+    background: #21252c;
+    position: absolute;
+    z-index: 9999999999999999999999999;
+    top: 150px;
+    box-shadow: 0px 0px 11px -2px #404A5A;
+    border-radius: 5px;
+    border: 1px solid #33373e;
+    width: 100%;
+    left: 0;
+    }
+
+    .topBar .submenu .subnavlink {
+    width: 100%;
+    float: left}
+
+    .topBar .top {
+    background-color: #2b3043;
+    padding: 16px 0px 52px 0;
+    margin: 0 0 -42px 0}
+
+    .topBar .top div.col-sm-1 img{margin-bottom: 15px}
+    .topBar .bottom p {
+    color: #878B91;
+    margin-top: 25px}
+    .topBar .bottom .pull-right img{margin-top: 40px}
+    .topBar .bottom {
+    background-color: #21252c;
+    height: 72px;
+    line-height: 56px}
+
+    .messages .pull-right a {
+    color: #222222;
+    font-weight: bold;
+    font-size: 14px;
+    text-decoration: none;
+    margin: 0 9px;
+    margin-bottom: 8px;
+    display: inline-block}
+
+    .demographSM .lastButtons .buttons button {
+      border: 0;
+      padding: 8px 15px;
+      border-radius: 27px;
+      background: transparent;
+      width: 46%}
+
+      .AsrAcd .Asr h3 span, .AsrAcd .Acd h3 span {
+    color: #797b7d;
+    font-size: 13px}
+}
+
+
+@media (width: 412px) {
+
+  .topBar .username {
+    color: white;
+    font-size: 13px}
+    .topBar .submenu {
+      padding: 20px 40px 10px 40px;
+      width: 100%;
+      background: #21252c;
+      position: absolute;
+      z-index: 9999999999999999999999999;
+      left: 0;
+      top: 100px;
+      box-shadow: 0px 0px 11px -2px #404A5A;
+      border-radius: 5px;
+      border: 1px solid #33373e}
+  .topBar .top div.col-sm-1 img{margin-bottom: 15px}
+  .topBar .bottom div.col-sm-6:last-child{margin-top: -57px}
+  .topBar .top {
+    background-color: #2b3043;
+    padding: 16px 0px 52px 0;
+    margin: 0 0px -38px 0}
+
+    .messages .pull-right a {
+    color: #222222;
+    font-weight: bold;
+    font-size: 14px;
+    text-decoration: none;
+    margin: 0 9px;
+    display: inline-block;
+    margin-bottom: 10px}
+}
+
+
+@media (width: 360px){
+  .topBar .top{text-align: center}
+  .topBar .bottom .pull-right{margin-top: -55px}
+  .topBar .iconAndCounter span{left: 51px;}
+  .topBar .top ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: -32px}
+    .notify {
+        z-index: 999999999999999999999;
+        position: relative;
+        overflow: hidden;
+        margin-bottom: 20px;
+    }
+    .topBar .iconAndCounter {width: 102px;}
+    .topBar .top ul li:first-child {
+    width: 50%;
+    float: left}
+
+    .arrowHideshow{margin-left: -28px}
+    .avatar .HideShow{right: 45px}
+
+    .topBar .submenu{
+    padding: 20px 40px 10px 40px;
+    background: #21252c;
+    position: absolute;
+    z-index: 9999999999999999999999999;
+    top: 150px;
+    box-shadow: 0px 0px 11px -2px #404A5A;
+    border-radius: 5px;
+    border: 1px solid #33373e;
+    width: 100%;
+    left: 0;
+    }
+
+    .topBar .submenu .subnavlink {
+    width: 100%;
+    float: left}
+
+    .topBar .top {
+    background-color: #2b3043;
+    padding: 16px 0px 52px 0;
+    margin: 0 0 -42px 0}
+
+    .topBar .top div.col-sm-1 img{margin-bottom: 15px}
+    .topBar .bottom p {
+    color: #878B91;
+    margin-top: 25px}
+    .topBar .bottom .pull-right img{margin-top: 40px}
+    .topBar .bottom {
+    background-color: #21252c;
+    height: 72px;
+    line-height: 56px}
+
+    .messages .pull-right a {
+    color: #222222;
+    font-weight: bold;
+    font-size: 14px;
+    text-decoration: none;
+    margin: 0 9px;
+    margin-bottom: 8px;
+    display: inline-block}
+
+    .demographSM .lastButtons .buttons button {
+      border: 0;
+      padding: 8px 15px;
+      border-radius: 27px;
+      background: transparent;
+      width: 46%}
+
+      .AsrAcd .Asr h3 span, .AsrAcd .Acd h3 span {
+    color: #797b7d;
+    font-size: 13px}
+}
+
+
+
+@media (width: 375px){
+  .topBar .top{text-align: center}
+  .topBar .bottom .pull-right{margin-top: -55px}
+  .topBar .iconAndCounter span{left: 51px;}
+  .topBar .top ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: -32px}
+    .notify {
+        z-index: 999999999999999999999;
+        position: relative;
+        overflow: hidden;
+        margin-bottom: 20px;
+    }
+    .topBar .iconAndCounter {width: 102px;}
+    .topBar .top ul li:first-child {
+    width: 50%;
+    float: left}
+
+    .arrowHideshow{margin-left: -28px}
+    .avatar .HideShow{right: 45px}
+
+    .topBar .submenu{
+    padding: 20px 40px 10px 40px;
+    background: #21252c;
+    position: absolute;
+    z-index: 9999999999999999999999999;
+    top: 150px;
+    box-shadow: 0px 0px 11px -2px #404A5A;
+    border-radius: 5px;
+    border: 1px solid #33373e;
+    width: 100%;
+    left: 0;
+    }
+
+    .topBar .submenu .subnavlink {
+    width: 100%;
+    float: left}
+
+    .topBar .top {
+    background-color: #2b3043;
+    padding: 16px 0px 52px 0;
+    margin: 0 0 -42px 0}
+
+    .topBar .top div.col-sm-1 img{margin-bottom: 15px}
+    .topBar .bottom p {
+    color: #878B91;
+    margin-top: 25px}
+    .topBar .bottom .pull-right img{margin-top: 40px}
+    .topBar .bottom {
+    background-color: #21252c;
+    height: 72px;
+    line-height: 56px}
+
+    .messages .pull-right a {
+    color: #222222;
+    font-weight: bold;
+    font-size: 14px;
+    text-decoration: none;
+    margin: 0 9px;
+    margin-bottom: 8px;
+    display: inline-block}
+
+    .demographSM .lastButtons .buttons button {
+      border: 0;
+      padding: 8px 15px;
+      border-radius: 27px;
+      background: transparent;
+      width: 46%}
+
+      .AsrAcd .Asr h3 span, .AsrAcd .Acd h3 span {
+    color: #797b7d;
+    font-size: 13px}
+}
+
+
+@media (width: 414px){
+  .topBar .top{text-align: center}
+  .topBar .bottom .pull-right{margin-top: -55px}
+  .topBar .iconAndCounter span{left: 58px;}
+  .topBar .top ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: -32px}
+    .notify {
+        z-index: 999999999999999999999;
+        position: relative;
+        overflow: hidden;
+        margin-bottom: 20px;
+    }
+    .topBar .iconAndCounter {width: 122px;}
+    .topBar .top ul li:first-child {
+    width: 50%;
+    float: left}
+
+    .arrowHideshow{margin-left: -28px}
+    .avatar .HideShow{right: 45px}
+
+    .topBar .submenu{
+    padding: 20px 40px 10px 40px;
+    background: #21252c;
+    position: absolute;
+    z-index: 9999999999999999999999999;
+    top: 150px;
+    box-shadow: 0px 0px 11px -2px #404A5A;
+    border-radius: 5px;
+    border: 1px solid #33373e;
+    width: 100%;
+    left: 0;
+    }
+
+    .topBar .submenu .subnavlink {
+    width: 100%;
+    float: left}
+
+    .topBar .top {
+    background-color: #2b3043;
+    padding: 16px 0px 52px 0;
+    margin: 0 0 -42px 0}
+
+    .topBar .top div.col-sm-1 img{margin-bottom: 15px}
+    .topBar .bottom p {
+    color: #878B91;
+    margin-top: 25px}
+    .topBar .bottom .pull-right img{margin-top: 40px}
+    .topBar .bottom {
+    background-color: #21252c;
+    height: 72px;
+    line-height: 56px}
+
+    .messages .pull-right a {
+    color: #222222;
+    font-weight: bold;
+    font-size: 14px;
+    text-decoration: none;
+    margin: 0 9px;
+    margin-bottom: 8px;
+    display: inline-block}
+
+    .demographSM .lastButtons .buttons button {
+      border: 0;
+      padding: 8px 15px;
+      border-radius: 27px;
+      background: transparent;
+      width: 46%}
+
+      .AsrAcd .Asr h3 span, .AsrAcd .Acd h3 span {
+    color: #797b7d;
+    font-size: 13px}
+}
+
+
+@media (width: 400px){
+  .topBar .top{text-align: center}
+  .topBar .bottom .pull-right{margin-top: -55px}
+  .topBar .iconAndCounter span{left: 58px;}
+  .topBar .top ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: -32px}
+    .notify {
+        z-index: 999999999999999999999;
+        position: relative;
+        overflow: hidden;
+        margin-bottom: 20px;
+    }
+    .topBar .iconAndCounter {width: 122px;}
+    .topBar .top ul li:first-child {
+    width: 50%;
+    float: left}
+
+    .arrowHideshow{margin-left: -28px}
+    .avatar .HideShow{right: 45px}
+
+    .topBar .submenu{
+    padding: 20px 40px 10px 40px;
+    background: #21252c;
+    position: absolute;
+    z-index: 9999999999999999999999999;
+    top: 150px;
+    box-shadow: 0px 0px 11px -2px #404A5A;
+    border-radius: 5px;
+    border: 1px solid #33373e;
+    width: 100%;
+    left: 0;
+    }
+
+    .topBar .submenu .subnavlink {
+    width: 100%;
+    float: left}
+
+    .topBar .top {
+    background-color: #2b3043;
+    padding: 16px 0px 52px 0;
+    margin: 0 0 -42px 0}
+
+    .topBar .top div.col-sm-1 img{margin-bottom: 15px}
+    .topBar .bottom p {
+    color: #878B91;
+    margin-top: 25px}
+    .topBar .bottom .pull-right img{margin-top: 40px}
+    .topBar .bottom {
+    background-color: #21252c;
+    height: 72px;
+    line-height: 56px}
+
+    .messages .pull-right a {
+    color: #222222;
+    font-weight: bold;
+    font-size: 14px;
+    text-decoration: none;
+    margin: 0 9px;
+    margin-bottom: 8px;
+    display: inline-block}
+
+    .demographSM .lastButtons .buttons button {
+      border: 0;
+      padding: 8px 15px;
+      border-radius: 27px;
+      background: transparent;
+      width: 46%}
+
+      .AsrAcd .Asr h3 span, .AsrAcd .Acd h3 span {
+    color: #797b7d;
+    font-size: 13px}
+}
+
+
+
+@media (width: 640px) {
+  .fixedusers{top: 208px}
+}
+
+@media (width: 480px) {
+  .fixedusers{top: 253px}
+}
+
+@media (width: 320px) {
+  .fixedusers{top: 294px}
+}
+
+
+@media (width: 400px) {
+  .fixedusers{margin-top: 172px;}
+}
+
+@media (width: 360px) {
+  .fixedusers{margin-top: 172px}
+}
+
+
+@media (width: 412px) {
+  .fixedusers{margin-top: 107px;}
+}
+
+
+@media (width: 375px) {
+  .fixedusers{margin-top: 172px}
+}
+
+
+@media (width: 414px) {
+  .fixedusers{margin-top: 172px}
+}
